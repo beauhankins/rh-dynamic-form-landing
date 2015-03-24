@@ -1,0 +1,10 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/assets.css.scss */
+.logo-rh {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: url(//redhatbrand.github.io/PartnerConferenceTemplates/shared/images/rh-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 2em;
+  right: 0; }

@@ -1,0 +1,30 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/layout.css.scss */
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box; }
+
+/* line 9, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/layout.css.scss */
+.full-width-background {
+  width: 100vw;
+  height: auto;
+  margin-left: calc((100vw - 100%) / -2);
+  padding: 2em calc((100vw - 100%) / 2);
+  box-sizing: border-box; }
+
+/* line 17, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/layout.css.scss */
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #4d4d4d;
+  background-size: cover;
+  background-position: 50% 55%;
+  padding-top: 4em !important;
+  padding-bottom: 4em !important;
+  color: #fff; }
+  /* line 27, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/layout.css.scss */
+  header h1 {
+    margin: 0; }

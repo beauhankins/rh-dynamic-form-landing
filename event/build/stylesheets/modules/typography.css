@@ -1,0 +1,36 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+html {
+  font-family: "Overpass", sans-serif; }
+
+/* line 5, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+h2 {
+  font-weight: 600; }
+
+/* line 9, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+h3 {
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.5em; }
+
+/* line 15, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+h4 {
+  color: #999;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5em; }
+
+/* line 22, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+p {
+  margin: 0;
+  margin-bottom: 1em;
+  line-height: 1.5em; }
+
+/* line 28, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+a {
+  color: #08c0fc;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: all .25s ease-in-out; }
+  /* line 35, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/typography.css.scss */
+  a:hover {
+    color: #039cce; }

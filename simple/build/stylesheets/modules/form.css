@@ -1,0 +1,89 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+#GatedFormContainer {
+  background: #f2f2f2;
+  margin-top: 2em;
+  transition: opacity .5s ease-in-out; }
+  /* line 7, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+  #GatedFormContainer form {
+    width: 100%;
+    margin: 0 auto; }
+    /* line 11, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+    #GatedFormContainer form .form-group {
+      margin: 1em 0;
+      position: relative; }
+      /* line 15, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+      #GatedFormContainer form .form-group label {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        font-weight: 300;
+        color: #999;
+        pointer-events: none;
+        transition: all .35s ease-in-out; }
+      /* line 24, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+      #GatedFormContainer form .form-group input, #GatedFormContainer form .form-group select, #GatedFormContainer form .form-group button {
+        background: white;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 3em;
+        border-radius: 4px;
+        border: solid 1px #d9d9d9;
+        padding: 0 1em;
+        box-sizing: border-box;
+        transition: border .25s ease-in-out; }
+        /* line 38, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+        #GatedFormContainer form .form-group input:focus, #GatedFormContainer form .form-group select:focus, #GatedFormContainer form .form-group button:focus {
+          outline: none;
+          border-color: #c00 !important; }
+        /* line 43, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+        #GatedFormContainer form .form-group input:-moz-focusring, #GatedFormContainer form .form-group select:-moz-focusring, #GatedFormContainer form .form-group button:-moz-focusring {
+          color: transparent;
+          text-shadow: 0 0 0 #000; }
+        /* line 48, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+        #GatedFormContainer form .form-group input:hover:not(.disabled), #GatedFormContainer form .form-group select:hover:not(.disabled), #GatedFormContainer form .form-group button:hover:not(.disabled) {
+          border-color: #8c8c8c; }
+      /* line 53, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+      #GatedFormContainer form .form-group button {
+        font-family: "Overpass", sans-serif !important;
+        font-weight: 600;
+        cursor: pointer; }
+      /* line 60, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+      #GatedFormContainer form .form-group.has-error label {
+        color: #c00 !important; }
+      /* line 65, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+      #GatedFormContainer form .form-group label.error {
+        position: static; }
+        /* line 68, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+        #GatedFormContainer form .form-group label.error:not(:first-child) {
+          display: none !important; }
+  /* line 75, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+  #GatedFormContainer button#FormSubmitButton {
+    background: #c00;
+    color: white;
+    border-color: #b30000;
+    transition: all .25s ease-in-out; }
+    /* line 82, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+    #GatedFormContainer button#FormSubmitButton:hover {
+      background: #b30000; }
+
+/* line 88, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+.dropdown-arrow:after {
+  content: "";
+  width: 0;
+  height: 0;
+  right: 24px;
+  top: calc(50% - 4.5px);
+  position: absolute;
+  border-style: solid;
+  border-width: 9px 6px 0px 6px;
+  border-color: #999 transparent transparent transparent; }
+
+/* line 99, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+input:focus {
+  border-color: red !important; }
+
+/* line 102, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/form.css.scss */
+input:hover {
+  border-color: gray; }

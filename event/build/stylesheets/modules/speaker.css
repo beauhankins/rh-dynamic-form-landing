@@ -1,0 +1,39 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+.speaker {
+  width: 100%;
+  height: calc(40vw + 4em);
+  max-height: calc(140px + 4em);
+  margin: 2em 0;
+  background: #f2f2f2;
+  padding: 2em;
+  border: 1px #d9d9d9 solid;
+  box-sizing: border-box;
+  border-radius: 4px; }
+  /* line 12, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+  .speaker .speaker-profile {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    max-width: 140px;
+    max-height: 140px;
+    vertical-align: top;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px; }
+  /* line 24, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+  .speaker .speaker-info {
+    display: inline-block;
+    width: calc(100% - 20vw - 5px - 1em);
+    min-width: calc(100% - 145px - 1em);
+    height: 100%;
+    margin-left: 1em;
+    overflow-y: scroll; }
+    /* line 32, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+    .speaker .speaker-info h3 {
+      margin-top: -.25em; }
+    /* line 36, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+    .speaker .speaker-info h4 {
+      margin-bottom: .5em; }
+    /* line 40, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/event/source/stylesheets/modules/speaker.css.scss */
+    .speaker .speaker-info p:last-child {
+      margin-bottom: 0; }

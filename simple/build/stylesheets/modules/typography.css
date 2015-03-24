@@ -1,0 +1,17 @@
+/* line 1, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/typography.css.scss */
+html {
+  font-family: "Overpass", sans-serif; }
+
+/* line 5, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/typography.css.scss */
+h2 {
+  font-weight: 600; }
+
+/* line 9, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/typography.css.scss */
+a {
+  color: #08c0fc;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: all .25s ease-in-out; }
+  /* line 16, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/typography.css.scss */
+  a:hover {
+    color: #039cce; }
