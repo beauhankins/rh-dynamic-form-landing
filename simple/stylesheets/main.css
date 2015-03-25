@@ -24,6 +24,7 @@ header {
   background-position: 50% 55%;
   padding-top: 4em !important;
   padding-bottom: 4em !important;
+  border-bottom: 4px solid #c00;
   color: #fff; }
   /* line 27, /Users/beauhankins/Documents/Development/NetEngine/RedHat/shared/templates/gated-form-landing-page/source/stylesheets/modules/layout.css.scss */
   header h1 {
